@@ -1,8 +1,10 @@
 body {
-    background-color: #63431c;
+    background-color: #674ed2;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
   }
 
 table {
@@ -37,13 +39,18 @@ td.pixel {
    
 }
 .fire {
-    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
     border: 0px;
-    clear:both;
-    margin:auto; 
 }
 
+#telaToda{
+    height: 100vh;
+    width: 100%;
+    display:table;
+}
 
+/*
 
 .divMeiaTela {
     background-color: rgb(127, 127, 251);
@@ -55,3 +62,4 @@ td.pixel {
     margin: auto;
     display: table;
 }
+*/
